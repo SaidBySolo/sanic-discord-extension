@@ -1,9 +1,9 @@
 from typing import Any, Callable, NoReturn, Optional
-from sanic_discord.discord.types.interactions import (
+from sanic_discord_extension.discord.types.interactions import (
     ApplicationCommandType,
     ApplicationCommandOptionType,
 )
-from sanic_discord.typing import CORO
+from sanic_discord_extension.typing import CORO
 
 
 class RegisterdInfo:

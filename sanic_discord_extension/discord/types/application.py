@@ -1,6 +1,6 @@
 from typing import Literal, Optional, TypedDict, Union
 
-from sanic_discord.discord.types.snowflake import Snowflake
+from sanic_discord_extension.discord.types.snowflake import Snowflake
 
 ApplicationCommandOptionTypes = Literal[1]
 ApplicationCommandTypes = Literal[1, 2, 3, 4, 6, 7, 8, 9, 10]

@@ -6,12 +6,12 @@ from sanic.app import Sanic
 from sanic.exceptions import Unauthorized
 from sanic.response import json
 
-from sanic_discord.discord.interactions import Interaction
-from sanic_discord.discord.types.interactions import ApplicationCommandInteractionData
-from sanic_discord.http import DiscordBaseHTTP
-from sanic_discord.register import RegisterCommand, RegisterdInfo
-from sanic_discord.typing import SanicDiscordRequest
-from sanic_discord.response import Response
+from sanic_discord_extension.discord.interactions import Interaction
+from sanic_discord_extension.discord.types.interactions import ApplicationCommandInteractionData
+from sanic_discord_extension.http import DiscordBaseHTTP
+from sanic_discord_extension.register import RegisterCommand, RegisterdInfo
+from sanic_discord_extension.typing import SanicDiscordRequest
+from sanic_discord_extension.response import Response
 
 
 class Handler:

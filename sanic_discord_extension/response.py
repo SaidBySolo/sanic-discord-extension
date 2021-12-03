@@ -1,5 +1,5 @@
 from typing import Any, Optional
-from sanic_discord.discord.embeds import Embed
+from sanic_discord_extension.discord.embeds import Embed
 from sanic.response import HTTPResponse, json
 
 

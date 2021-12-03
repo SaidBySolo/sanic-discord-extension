@@ -1,8 +1,8 @@
 from typing import Optional
 
-from sanic_discord.discord.types.interactions import Interaction as Payload
-from sanic_discord.discord.types.interactions import InteractionData as DataPayload
-from sanic_discord.discord.utils import get_as_snowflake
+from sanic_discord_extension.discord.types.interactions import Interaction as Payload
+from sanic_discord_extension.discord.types.interactions import InteractionData as DataPayload
+from sanic_discord_extension.discord.utils import get_as_snowflake
 
 
 class Interaction:

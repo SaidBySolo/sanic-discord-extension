@@ -75,8 +75,8 @@ class EmbedProxy:
 E = TypeVar("E", bound="Embed")
 
 if TYPE_CHECKING:
-    from sanic_discord.discord.types.embed import Embed as EmbedData
-    from sanic_discord.discord.types.embed import EmbedType
+    from sanic_discord_extension.discord.types.embed import Embed as EmbedData
+    from sanic_discord_extension.discord.types.embed import EmbedType
 
     T = TypeVar("T")
     MaybeEmpty = Union[T, _EmptyEmbed]

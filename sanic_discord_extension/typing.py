@@ -3,10 +3,10 @@ from typing import Any, Callable, Coroutine, TypeVar
 
 from multidict import CIMultiDict
 from sanic.request import Request
-from sanic_discord.discord.interactions import Interaction
+from sanic_discord_extension.discord.interactions import Interaction
 
-from sanic_discord.http import DiscordBaseHTTP
-from sanic_discord.response import Response
+from sanic_discord_extension.http import DiscordBaseHTTP
+from sanic_discord_extension.response import Response
 
 CORO = Callable[..., Coroutine[Any, Any, Any]]
 

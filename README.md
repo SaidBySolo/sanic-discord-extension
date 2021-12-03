@@ -7,7 +7,7 @@ server.py
 ```py
 from sanic.app import Sanic
 
-from sanic_discord.client import Handler
+from sanic_discord_extension.client import Handler
 from commands.say import say
 
 sanic = Sanic(__name__)
@@ -26,8 +26,8 @@ sanic.run("0.0.0.0", 8000)
 commands/say.py
 
 ```py 
-from sanic_discord.register import RegisterCommand, CommandArgument
-from sanic_discord.typing import SanicDiscordRequest
+from sanic_discord_extension.register import RegisterCommand, CommandArgument
+from sanic_discord_extension.typing import SanicDiscordRequest
 
 say = RegisterCommand(name="say", description="Say anything")
 
